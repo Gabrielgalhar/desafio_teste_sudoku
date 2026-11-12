@@ -1,0 +1,39 @@
+EVIDÊNCIA DE EXECUÇÃO - Sudoku Binário 6x6
+Data/hora de início: 12/11/2026, 14:41:02
+Data/hora de término: 12/11/2026, 14:41:02
+Comando: npm run coverage
+Código de saída: 0
+
+--- SAÍDA REAL DO NODE.JS ---
+✔ CT01 - aceita tabuleiro vazio ou incompleto (1.2165ms)
+✔ CT02 - aceita uma solucao completa e valida (0.1508ms)
+✔ CT03 - recusa dimensoes e valores fora da regra (0.4094ms)
+✔ CT04 - recusa tres valores iguais em sequencia na linha (0.1068ms)
+✔ CT05 - recusa tres valores iguais em sequencia na coluna (0.1462ms)
+✔ CT06 - recusa quatro ocorrencias do mesmo valor na linha (0.1183ms)
+✔ CT07 - recusa quatro ocorrencias do mesmo valor na coluna (0.1307ms)
+✔ CT08 - recusa linhas completas repetidas (0.1495ms)
+✔ CT09 - recusa colunas completas repetidas (0.1209ms)
+✔ CT10 - mantem pistas e protege a entrada original (0.29ms)
+✔ CT11 - jogada invalida preserva o estado anterior (1.5181ms)
+✔ CT12 - permite apagar casa editavel e protege a consulta (0.1442ms)
+✔ CT13 - recusa coordenadas e simbolos invalidos (0.2206ms)
+✔ CT14 - identifica a conclusao ao preencher a ultima casa (0.1507ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 305.446
+ℹ start of coverage report
+ℹ -----------------------------------------------------------
+ℹ file       | line % | branch % | funcs % | uncovered lines
+ℹ -----------------------------------------------------------
+ℹ src        |        |          |         | 
+ℹ  sudoku.js | 100.00 |   100.00 |  100.00 | 
+ℹ -----------------------------------------------------------
+ℹ all files  | 100.00 |   100.00 |  100.00 | 
+ℹ -----------------------------------------------------------
+ℹ end of coverage report

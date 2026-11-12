@@ -1,0 +1,14 @@
+{
+  "name": "desafio_teste_sudoku",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Desafio de teste de software: sudoku",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node scripts/executar-testes.js",
+    "coverage": "node scripts/executar-testes.js coverage"
+  }
+}
